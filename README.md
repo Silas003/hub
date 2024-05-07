@@ -1,5 +1,5 @@
 ## Getting Started
--clone the repository by running `https://github.com/Silas003/hub.git`
+- clone the repository by running `https://github.com/Silas003/hub.git`
 
 First, run the development server:
 
