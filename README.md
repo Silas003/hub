@@ -14,7 +14,7 @@ install the packages inside the requirements.txt:
 
 run the server:
 ```
-`py manage.py runserver`
+py manage.py runserver
 ```
 Open [http://localhost:8000](http://localhost:8000) with your browser to see the result.
 
