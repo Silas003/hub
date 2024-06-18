@@ -47,7 +47,6 @@ class LoginViewset(viewsets.ModelViewSet):
         if serializer.is_valid():
             email=serializer.validated_data.get("email") 
             password=serializer.validated_data.get("password")
-            print(email, password)
             user=authenticate(email=email, password=password)
             if user is not None:
                 refresh = RefreshToken.for_user(user)

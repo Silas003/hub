@@ -11,7 +11,7 @@ class ProjectSerializer(serializers.ModelSerializer):
             'supervised_by',
             'project_type',
             'student',
-            'file'
+            'file',
             'link',
             'year'
         ]
